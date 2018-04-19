@@ -1,0 +1,13 @@
+I: The problem was to check if the words was a palidrone 
+
+D:My goal is to transverse the String, and make sure its a palidrone.
+ 
+E:my idea was to simply make an int ascii array, and increase the count everytime we saw a character, and only decrease it if we
+saw the character twice. So the ascii array will always be 1, unless it repeated.
+
+A:I anticipated the code to work well however when I ran the code, because I used the same string to transverse it, it would
+constantly delete the count in the ascii array. Regardless if it was seen twice or not 
+
+
+L: I learned via the solution that it would of been smart to simply make an array and add to the same place and if the count
+was odd it meant it was not a palidrone because we had to just check if all the characters inserted were even 
