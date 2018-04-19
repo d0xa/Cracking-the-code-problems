@@ -1,0 +1,15 @@
+I: The problem was compress duplicate characters with one character follows by how many repittions it has 
+
+D:My goal was to replace the duplicates with a single character, with how many repititons it had 
+ 
+E:my idea was to take in the string, and then start an empty string in the method as well as a counter variable to keep track of
+how many repititions there was. After I would check if the next character was a duplicate and if it was I would increase count 
+until there was no duplicates and then if there was no more duplicates add a single character to the empty string with the counter
+
+A:I anticipated to work however when I ran the program I ran into an array out of bounds, so a simple solution I found was to add
+an extra parameter to the if statement that made sure that the index never went over the length of the string (that was converted
+to a char array)
+
+
+L: While looking at the solution I realized my method was extremely clunky and slow and would only increase exponentially, so I 
+attempted to recreate the faster solution while also tracing what the program did.
