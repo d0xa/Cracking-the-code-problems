@@ -1,1 +1,12 @@
+Chapter 2 problem 2
 
+I: The problem was to find how far away the k value was to the end 
+
+D:My goal is to transverse linked list efficiently and quickly 
+ 
+E:my idea was to do this problem via recursion to get the index where the kth positon. is found and then returning the index where its located 
+
+A:I anticipated to work however i encountered the error when I always got 2, after reviewing the code given. I realizded I never updated the index properly so it always gave me 2. After fixing the error my code worked.
+
+
+L: I learned how to properly debug recursion for one way linked list 
