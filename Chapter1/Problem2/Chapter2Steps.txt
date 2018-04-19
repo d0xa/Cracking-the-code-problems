@@ -1,0 +1,15 @@
+Chapter 1 problem 2
+
+I: The problem was to determine if the strings we are permutation 
+
+D:My goal is to transverse the String and check if they have the same character account 
+
+E:my idea was to use a stack to add everything from the first string, and then popped when transversing the second string and if
+it was empty return true, otherwise return false
+
+A:I anticipated to work however when I coded it I found out that the order of the words did matter because it would take longer 
+if I the two similar words were at the end of the string and I would stil lhave to transverse the array 
+with anything else in the array, and if it did I would return false
+
+L: I learned that it would make more sense to make an array with all ascii characters and add a value to that, and if the ascii 
+array was not empty, it would mean that it was not a permutation
