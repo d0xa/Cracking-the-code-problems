@@ -1,0 +1,9 @@
+Chapter 1 problem 1
+
+I: The problem was to determine if the string we are given is completely unique 
+D:My goal is to transverse the String and check if there's any duplicates
+E:I could of done a hash set where if it tries to add the same value it will just return false. However it asked 
+what if there was no other databases so I decided in a char Array.
+A:So i simply just made the string into an array, and transversed it via 2 for loops to check if the first value matched
+with anything else in the array, and if it did I would return false
+L:
