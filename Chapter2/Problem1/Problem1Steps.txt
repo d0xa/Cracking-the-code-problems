@@ -1,0 +1,16 @@
+Chapter 2 Problem 1
+
+I: The problem was to find duplicates and remove them
+
+D:My goal is to sucessfully remove the duplicates
+ 
+E:my idea was to simply make a a for loop that would go through the left tree first checking if there was any duplicates and then
+the right tree to check if there was any duplicates 
+
+A:I anticipated to work however when I ran the program I realized that I would get a null pointer exception. So i decided to look
+at the solution sheet and realized that my solution wasn't even in O(n) time. 
+
+
+L: I learned that I could transverse the Linked List iteratively saving me time, instead of recursively. And the linked list 
+I was running had a way to acess left and right insteado of just .next which was interesting to me because it was the first time 
+I saw a linked list implemented like this 
