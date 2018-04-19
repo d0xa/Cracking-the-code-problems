@@ -1,17 +1,12 @@
 Chapter 1 problem 3
 
-I: The problem was to replace spaces with 20%
+I: The problem was to replace a middle variable in a linked list 
 
-D:My goal is to transverse the String and replace the spaces with 20%
+D:My goal is replace the middle node without cauing a null pointer 
  
-E:my idea was to simply make a string builder, take the original string and call stringBuilder.replace to replace
-the character at position i where the space was with 20%
+E:my idea was to simply check if the next 2 .next existed and if the one after that was null, which mean that the we could transverse the linked list without an error, but as soon as those conditions were met, we made the next node equal to the next next node
 
-A:I anticipated to work however when I ran the program I soon realized it could only replace one char so it was not 
-that simple, so then I decided to increase the index by 3 whenever i replaced the space in order to keep transversing
-correctly. But all it did was replace the space with % and the next two spaces in the char array as well
+A:The program worked
 
 
-L: I learned via the solution that it would of made more sense to work from the back to the front instead of the 
-front to the back. Because we could always add spaces to the end which meant you could easily put add the spaces
-required to make room for the %20
+L:
