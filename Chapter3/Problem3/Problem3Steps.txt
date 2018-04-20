@@ -1,0 +1,12 @@
+Chapter 3 problem 3
+
+I: The problem was to make a stack that after a value goes into another stack
+
+D:My goal is to properly transverse the stack and if its filled add it to another stack infinately without causing a stack over flow
+ 
+E:my idea was to simply make a stacks class and check if it was full and if it was add it to a new stack
+
+A:I anticipated to work however when i ran the program i got a stack overflow and then after i fixed the error I had to debug and trace the code and realized i was not checking if the new stack that held the stacks was full. After I fixed it the code worked.
+
+
+L: I learned how to properly handle a stack overflow with a stack class, and how to make a random stack.
